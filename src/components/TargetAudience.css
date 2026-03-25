@@ -1,0 +1,51 @@
+.target-section {
+  background-color: var(--color-bg);
+}
+
+.target-header {
+  text-align: center;
+}
+
+.target-header p {
+  color: #666;
+  margin-top: 16px;
+  font-size: 1.1rem;
+}
+
+.audience-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 600px) {
+  .audience-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 900px) {
+  .audience-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.audience-card {
+  text-align: center;
+  padding: 40px 24px;
+}
+
+.audience-emoji {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.audience-card h3 {
+  color: var(--color-primary);
+  margin-bottom: 12px;
+}
+
+.audience-card p {
+  font-size: 0.95rem;
+  color: var(--color-text);
+}

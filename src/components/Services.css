@@ -1,0 +1,122 @@
+.services-section {
+  background-color: var(--color-white);
+}
+
+.services-subtitle {
+  color: #666;
+  font-size: 1.1rem;
+  margin-top: 16px;
+}
+
+.home-service-banner {
+  background-color: rgba(46, 134, 171, 0.05);
+  border: 1px solid rgba(46, 134, 171, 0.2);
+  color: var(--color-primary);
+  padding: 16px 24px;
+  border-radius: var(--radius-md);
+  text-align: center;
+  font-size: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.service-card {
+  text-align: center;
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+
+.service-card h4 {
+  color: var(--color-primary);
+  margin-bottom: 12px;
+  font-size: 1.25rem;
+}
+
+.service-card p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.packages-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .packages-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.package-card {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.package-card.recommended {
+  border: 2px solid var(--color-secondary);
+  transform: scale(1.05);
+}
+
+.package-card.recommended:hover {
+  transform: scale(1.05) translateY(-8px);
+}
+
+.package-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  padding: 4px 16px;
+  border-radius: var(--radius-full);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.package-card h4 {
+  font-size: 1.25rem;
+  margin-bottom: 24px;
+  color: var(--color-text);
+  font-family: var(--font-heading);
+}
+
+.package-features {
+  list-style: none;
+  margin: 0 0 32px 0;
+  padding: 0;
+  flex: 1;
+}
+
+.package-features li {
+  margin-bottom: 12px;
+  color: #666;
+  font-size: 0.95rem;
+}
