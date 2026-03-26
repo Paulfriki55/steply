@@ -12,12 +12,13 @@
 .problems-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 32px;
+  gap: 24px;
 }
 
 @media (min-width: 600px) {
   .problems-grid {
     grid-template-columns: 1fr 1fr;
+    gap: 32px;
   }
 }
 

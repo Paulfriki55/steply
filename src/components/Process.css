@@ -5,7 +5,7 @@
 .process-steps {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 40px;
+  gap: 24px;
   position: relative;
 }
 

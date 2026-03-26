@@ -32,7 +32,13 @@
 
 .audience-card {
   text-align: center;
-  padding: 40px 24px;
+  padding: 24px 16px;
+}
+
+@media (min-width: 768px) {
+  .audience-card {
+    padding: 40px 24px;
+  }
 }
 
 .audience-emoji {

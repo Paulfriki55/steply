@@ -15,7 +15,7 @@ export default function Contact() {
             <span className="info-icon"><Phone size={24} color="var(--color-primary)" /></span>
             <div>
               <h5>Teléfono</h5>
-              <p>+52 123 456 7890</p>
+              <p>+593 123 456 7890</p>
             </div>
           </div>
           
@@ -23,7 +23,7 @@ export default function Contact() {
             <span className="info-icon"><MessageSquare size={24} color="var(--color-primary)" /></span>
             <div>
               <h5>WhatsApp</h5>
-              <p>+52 123 456 7890</p>
+              <p>+593 123 456 7890</p>
             </div>
           </div>
           
@@ -39,7 +39,7 @@ export default function Contact() {
             <span className="info-icon"><MapPin size={24} color="var(--color-primary)" /></span>
             <div>
               <h5>Dirección</h5>
-              <p>Servicio exclusivo a domicilio temporalmente<br/><span style={{fontSize:'0.85rem', color:'#888'}}>(Cobertura en Ciudad de México)</span></p>
+              <p>Servicio exclusivo a domicilio temporalmente<br/><span style={{fontSize:'0.85rem', color:'#888'}}>(Cobertura en Ecuador)</span></p>
             </div>
           </div>
           

@@ -5,18 +5,25 @@
 .contact-container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 48px;
+  gap: 32px;
 }
 
 @media (min-width: 992px) {
   .contact-container {
     grid-template-columns: 1fr 1fr;
+    gap: 48px;
   }
 }
 
 .contact-info h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .contact-info h2 {
+    font-size: 2.5rem;
+  }
 }
 
 .contact-info > p {
@@ -57,7 +64,7 @@
 }
 
 .contact-form {
-  padding: 24px;
+  padding: 16px;
 }
 
 @media (min-width: 768px) {
